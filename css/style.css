@@ -1,0 +1,106 @@
+body{
+	background-color:#0066cc;
+}
+#wrapper{
+	width:1020px;
+	margin:5px auto;
+	background-color:white;
+	padding:10px;
+	overflow:hidden;
+}
+.naslov{
+	text-align:center;
+}
+.forma{
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+main{
+	width:66%;
+	padding:2%;
+	float:left;
+	overflow:hidden;
+}
+aside{
+	width:26%;
+	padding:2%;
+	float:right;
+	overflow:hidden;
+}
+.vest {
+	border: 2px solid blue;
+	padding: 10px;
+	margin:5px;
+	overflow:hidden;
+}
+.vest img{
+	width:200px;
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.vest h4{
+	float:right;
+	width:400px;
+	font-size: 1.5em;
+	margin-top: 0px;
+}
+.vest p{
+	line-height: 1.5em;
+}
+
+.komentar{
+	margin: 5px;
+	padding: 5px;
+	border-bottom: 2px solid blue;
+}
+.menu{
+	margin:5px 0;
+	padding:4px;
+}
+.menu a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.backbtn{
+	margin: 5px;
+	text-decoration: none;
+	font-size: 16px;
+}
+.menu a:hover{
+	background-color: #0066cc;
+	color: white;
+}
+#forma-komentar textarea{
+	width:400px;
+	min-height: 80px;
+	margin:5px;
+}
+#forma-komentar input[type=submit]{
+	margin:5px;
+	width: 100px;
+	height: 25px;
+}
+#forma-unosvesti{
+	margin:10px 0 10px 0;
+	border: 2px solid grey;
+	padding: 10px;
+}
+#forma-unosvesti input[type=submit]{
+	margin:5px;
+	width: 200px;
+	height: 30px;
+}
+#forma-unosvesti input[type=text]{
+	width: 500px;
+}
+#forma-unosvesti textarea{
+	width: 500px;
+	min-height: 200px;
+}
+#forma-unoskat{
+	margin:10px 0 10px 0;
+	border: 2px solid grey;
+	padding: 10px;
+}
